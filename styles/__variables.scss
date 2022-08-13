@@ -1,0 +1,22 @@
+// colors
+$greyishblue: hsl(217, 19%, 38%);
+$darkblue:  hsl(218, 23%, 16%);
+$darkgreyishblue:  hsl(217, 19%, 24%);
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+
+// fonts
+$quoteFont: 26px; 
+$font: 11px;
+$fontfamily: Manrope;
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

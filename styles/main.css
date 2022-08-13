@@ -1,0 +1,112 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: Manrope;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1f2632;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #323a49;
+  width: 30rem;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  -webkit-animation: fadeIn 0.5s;
+          animation: fadeIn 0.5s;
+}
+
+.container .heading h1 {
+  color: #52ffa8;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  font-size: 11px;
+}
+
+.container .quoteWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .quoteWrapper .quote {
+  margin: 0 0 1rem 0;
+}
+
+.container .quoteWrapper .quote h1 {
+  text-align: center;
+  font-size: 26px;
+  color: #cee3e9;
+}
+
+.container .dice {
+  position: relative;
+  top: 3.5rem;
+}
+
+.container .dice img {
+  background-color: #52ffa8;
+  padding: .75rem;
+  border-radius: 4rem;
+  cursor: pointer;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+.container .dice img:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px #0EFF48;
+  box-shadow: 0px 0px 20px 0px #0EFF48;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+/*# sourceMappingURL=main.css.map */

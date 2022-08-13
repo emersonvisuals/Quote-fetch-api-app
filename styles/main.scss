@@ -1,0 +1,67 @@
+@import "./_variables";
+@import "./_keyframes";
+
+body {
+    font-family: $fontfamily;
+    @include flex;
+    background-color: $darkblue;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    @include flex;
+    flex-direction: column;
+    background-color: $darkgreyishblue;
+    width: 30rem;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    animation: fadeIn 0.5s;
+
+    .heading {
+
+        h1 {
+            color: $neonGreen;
+            text-transform: capitalize;
+            text-transform: uppercase;
+            letter-spacing: .25rem;
+            font-size: $font
+        }
+
+    }
+
+    .quoteWrapper {
+        @include flex;
+        flex-direction: column;
+
+        .quote {
+            margin: 0 0 1rem 0;
+            
+            h1 {
+                text-align: center;
+                font-size: $quoteFont;
+                color: $lightCyan;
+            }
+        }
+    }
+
+    .dice {
+        position: relative;
+        top: 3.5rem;
+
+        img {
+            background-color: $neonGreen;
+            padding: .75rem;
+            border-radius: 4rem;
+            cursor: pointer;
+            transition: .5s all;
+        }
+    }
+
+    .dice img:hover {
+        -webkit-box-shadow: 0px 0px 20px 0px #0EFF48; 
+        box-shadow: 0px 0px 20px 0px #0EFF48;
+        transition: .5s all;
+    }
+}
