@@ -14,9 +14,9 @@ body {
     @include flex;
     flex-direction: column;
     background-color: $darkgreyishblue;
-    width: 30rem;
+    width: 26rem;
     border-radius: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     animation: fadeIn 0.5s;
 
     .heading {

@@ -1,6 +1,6 @@
 @-webkit-keyframes fadeIn {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     opacity: 1;
@@ -9,7 +9,7 @@
 
 @keyframes fadeIn {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
     opacity: 1;
@@ -48,9 +48,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #323a49;
-  width: 30rem;
+  width: 26rem;
   border-radius: 1rem;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
   -webkit-animation: fadeIn 0.5s;
           animation: fadeIn 0.5s;
 }
