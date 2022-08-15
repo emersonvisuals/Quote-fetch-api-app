@@ -1,6 +1,6 @@
 @-webkit-keyframes fadeIn {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -9,7 +9,7 @@
 
 @keyframes fadeIn {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -51,8 +51,8 @@ body {
   width: 26rem;
   border-radius: 1rem;
   padding: 2rem 2rem;
-  -webkit-animation: fadeIn 0.5s;
-          animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
 }
 
 .container .heading h1 {
