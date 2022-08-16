@@ -36,6 +36,15 @@ body {
         flex-direction: column;
         width: auto;
 
+        .loader {
+            @include spinner;
+            visibility: hidden;
+        }
+
+        .loader.active {
+            visibility: visible;
+        }
+
         .quote {
             margin: 0 0 1rem 0;
             
@@ -46,6 +55,10 @@ body {
             }
         }
 
+        .quote.active {
+            visibility: hidden;
+        }
+
         .patternDivider {
 
             img {
@@ -54,6 +67,7 @@ body {
             }
         }
     }
+
 
     .dice {
         position: relative;

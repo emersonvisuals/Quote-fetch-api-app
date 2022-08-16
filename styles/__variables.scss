@@ -16,7 +16,26 @@ $fontfamily: Manrope;
     justify-content: center;
 }
 
+@mixin spinner {
+    border: 10px solid $darkblue; /* Light grey */
+    border-top: 10px solid $neonGreen; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top:45vh;
+}
+
+
+
+// animations 
 @mixin fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+@mixin spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

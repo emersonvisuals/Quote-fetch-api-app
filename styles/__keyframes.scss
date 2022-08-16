@@ -1,3 +1,7 @@
 @keyframes fadeIn {
     @include fadeIn;
 }
+
+@keyframes spin {
+    @include spin;
+}
